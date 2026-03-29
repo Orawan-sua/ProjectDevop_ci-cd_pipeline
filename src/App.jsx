@@ -36,7 +36,7 @@ function App() {
   return (
     <div className="container">
       <div className="card">
-        <h1 className="title">FocusSession</h1>
+        <h1 className="title">TimeToLearn</h1>
 
         <p className="subtitle">ช่วงเวลาอ่านหนังสือ</p>
         <div className={running ? "hourglass animate" : "hourglass"}>⏳</div>
