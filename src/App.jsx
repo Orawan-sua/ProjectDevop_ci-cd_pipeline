@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 import "./App.css";
 
 function App() {
-  const [seconds, setSeconds] = useState(3600);
+  const [seconds, setSeconds] = useState(10800);
   const [running, setRunning] = useState(false);
-  const [duration, setDuration] = useState(3600);
+  const [duration, setDuration] = useState(10800);
 
   useEffect(() => {
     let timer;
