@@ -43,6 +43,7 @@ function App() {
         <h2 className="time">{formatTime()}</h2>
 
         <select onChange={handleDurationChange}>
+          <option value={10800}>3 hours</option>
           <option value={7200}>2 hours</option>
           <option value={3600}>1 hour</option>
           <option value={1800}>30 minutes</option>
